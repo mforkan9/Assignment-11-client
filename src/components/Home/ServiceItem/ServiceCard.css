@@ -1,0 +1,29 @@
+.swiper-container{
+    height: 510px;
+    width: auto;
+}
+.img-fluid{
+  height: 200px;
+  width: 500px;
+}
+@media screen and (min-width: 500px) {
+    .swiper-container {
+      width: 500px;
+    }
+  }
+@media screen and (min-width: 640px) {
+    .swiper-container {
+      width: 640px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .swiper-container {
+      width: 768px;
+    }
+  }
+  @media screen and (min-width: 960px) {
+    .swiper-container {
+      width: 1000px;
+    }
+  }

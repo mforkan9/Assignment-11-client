@@ -1,0 +1,11 @@
+.header{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(./header-img/41779307-lawn-mower-on-green-lawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: auto;
+}
+.main-header{
+    height: 1100px;
+}

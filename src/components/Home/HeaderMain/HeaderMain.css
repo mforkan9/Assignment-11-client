@@ -1,0 +1,38 @@
+.header-main{
+    height: 300px;
+    width: 60%;
+    margin: 170px auto 0;
+    font-family: poppins,sans-serif;
+    
+}
+.header-main h1{
+    margin-bottom: 0px;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    color: white;
+    -webkit-text-stroke: 0.3vw white;
+}
+.header-main h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: wheat;
+    -webkit-text-stroke: 0.3vw wheat;
+    border-right: 2px solid wheat;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+        0%,10%,100%{
+            width: 0;
+        }
+        70%,90%{
+            width: 100%;
+        }
+}

@@ -1,0 +1,57 @@
+.major{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 950px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 250px;
+}
+.boon{
+    height: 45px;
+    width: 90px;
+}
+.info-part{
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pay-part{
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.modern-form {
+    width: 400px;
+    margin: 30px auto;
+    background-color:  rgb(255, 251, 251);
+    padding: 20px 10px;
+  }
+  
+  .modern-form h3 {
+    text-align: center;
+  }
+  
+  .float-label-field {
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .float-label-field input {
+    padding: 5px 5px 8px 0px;
+    width: 100%;
+    font-size: 18px;
+    border: solid 1px #efefef;
+    border-radius: 10px;
+  }
+  
+  .float-label-field label {
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    transition: all 0.2s ease;
+    font-size: 18px;
+  }
+
+  
